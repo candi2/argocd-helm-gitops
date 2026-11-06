@@ -1,0 +1,13 @@
+replicaCount: 2
+
+ui:
+  message: "Hello from candi2 GitOps!"
+  color: "#2563eb"
+
+service:
+  enabled: true
+  type: ClusterIP
+  httpPort: 9898
+
+hpa:
+  enabled: false
